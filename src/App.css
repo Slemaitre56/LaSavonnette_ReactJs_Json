@@ -1,0 +1,599 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  background-color: #d6e0f0;
+  color: #393b44;
+  font-family: 'Martel', serif;
+}
+.App{
+  width: 80%;
+  margin: 15px auto;
+}
+a{
+  text-decoration: none;
+  color: #393b44;
+}
+p{
+  width: 95%;
+  margin: auto;
+  text-align: justify;
+  color: #74798d;
+  padding: 15px 10px;
+}
+h2{
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+h3{
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px;
+}
+h4{
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 300;
+}
+
+/* §§§§§-------------------- CONTAINERS -------------------§§§§§ */
+
+.bloc{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+/* §§§§§-------------------- COMPONENTS -------------------§§§§§ */
+/* §§§§§------------- STYLE CSS HEADER GENERAL-------------§§§§§ */
+
+.blogHeader{
+  background-color: #fff;
+  width: 100%;
+  height: 80vh;
+  padding: 15px;
+}
+
+/*  ----- Logo ------ */
+
+.headerLogo{
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("./pictures/soap-diy.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.HeaderTitle{
+  background-color: #fff;
+  margin: auto 0;
+  padding: 30px 50px;
+  font-size: 20px;
+  color: #393b44;
+  font-family: 'Indie Flower', cursive;
+  opacity: 0.8;
+}
+
+/*  ----- NavLink Menu ------ */
+
+.headerNav{
+  width: 100%;
+  margin-top: 25px;
+}
+.headerNav nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.headerNav nav a{
+  margin: auto 0;
+  color: #393b44;
+  font-size: 25px;
+}
+.headerNav nav a:hover{
+ text-decoration: underline;
+}
+
+/* §§§§§------------- STYLE CSS FOOTER GENERAL-------------§§§§§ */
+
+.footer{
+  background: #fff;
+  color: #393b44;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blocFooter{
+  width: 33%;
+  height: 25vh;
+  padding: 15px;
+}
+.blocFooter nav{
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #393b44;
+  display: flex;
+  flex-direction: column;
+}
+.blocFooter nav a{
+  list-style: none;
+  margin: 3px;
+  font-size: 12px;
+}
+.footerRs{
+  display: flex;
+  justify-content: space-around;
+  margin: 17% 0;
+}
+.blocCopyR {
+  width: 100%;
+  margin-left: 10px;
+}
+.copyR{
+  font-size: 12px;
+}
+
+/*  ----- CGU ------ */
+
+.blocCgu{
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+}
+.blocCgu div {
+  margin: 20px;
+}
+.cguTitle{
+  color: #353535;
+  text-align: center;
+  margin: 25px;
+}
+.cguTitle2{
+  color: #504d4d;
+  text-align: center;
+  margin: 20px;
+}
+
+/* §§§§§------------- STYLE CSS MAIN GENERAL-------------§§§§§ */
+
+
+/*  ----- ARTICLE ------ */
+
+.article{
+  width: 70%;
+}
+.recentPost{
+  width: 100%;
+  margin: 15px auto;
+  background-color: #fff;
+}
+.imgRecentPost{
+  width: 95%;
+  max-height: 300px;
+  object-fit: cover;
+  margin: 15px auto;
+  display: block;
+}
+.recentPost figure{
+  padding: 15px;
+  width: 100%;
+  text-align: justify;
+}
+.date{
+  width: 100%;
+  color: #8d93ab;
+  text-align: center;
+  font-size: 12px;
+}
+.readMore{
+  display: block;
+  margin: 10px auto;
+  height: 40px;
+  width: 15%;
+  color: #393b44;
+  background: transparent;
+  border: 1.5px solid #393b44;
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-right-radius:28px;
+  border-bottom-left-radius:28px;
+}
+.readMore:hover{
+  background-color: #d6e0f0;
+  border: none;
+}
+
+/*  ----- ASTUCE RECETTE ------ */
+
+.blocPost{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: justify;
+}
+.post{
+  width: 47%;
+  margin: 15px auto;
+  background-color: #fff;
+  font-size: 12px;
+}
+.dateAstuce{
+  font-size: 10px;
+}
+.imgPost{
+  display: block;
+  margin: 15px auto;
+  width: 90%;
+  height: 200px;
+}
+.readPost{
+  width: 25%;
+}
+
+/*  - oneAstuce - */
+
+.oneAstuce{
+  width: 100%;
+}
+.oneAstucePost{
+  width: 90%;
+  margin: 15px auto;
+  background-color: #fff;
+}
+.oneAstucePost figure {
+  padding: 15px;
+}
+.imgOneAstuce{
+  width: 60%;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+.oneAstucePostP{
+  font-size: 14px;
+}
+.oneAstucePostP a, .oneAstucePost a{
+  color: #7acfeb;
+  text-decoration: none;
+}
+
+/*  - oneRecette - */
+
+.ulRecette{
+  width: 90%;
+  margin: 15px auto;
+  color: #74798d;
+}
+.liRecette{
+  list-style: decimal;
+}
+
+/*  ----- SIDEBAR ------ */
+
+.sidebar{
+  width: 25%;
+}
+.aboutUs{
+  width: 100%;
+  background-color: #fff;
+  margin: 15px auto;
+}
+.aboutUs figure, .aboutUs ul{
+  padding: 15px;
+}
+.aboutUs img{
+  width: 95%;
+  max-height: 200px;
+  object-fit: cover;
+  margin: 15px auto;
+  display: block;
+}
+.aboutUs figure .pAboutUs{
+  font-size: 12px;
+}
+.aboutUs li{
+  list-style: none;
+}
+.aboutUs li a{
+  font-size: 14px;
+  color: #74798d;
+
+}
+.aboutUs li a:hover{
+  text-decoration: underline;
+}
+
+/*  ----- STARTING ------ */
+
+.noteAuteur{
+  border-radius: 25px;
+  border: 2px solid #7acfeb;
+}
+.blocStart{
+  display: flex;
+}
+.blocStart .imgStart{
+  width: 40%;
+  margin: auto;
+  height: 50%;
+}
+.blocStart .etape2{
+  height: 30%;
+  margin: auto;
+}
+.blocStart ul{
+  width: 60%;
+  padding: 20px;
+}
+.blocStart ul li{
+  list-style: circle;
+  color: #74798d;
+}
+.blocStart ul li a{
+  color: #7acfeb;
+  text-decoration: none;
+}
+.ulStart{
+  color: #393b44;
+} 
+
+.ulStart p{
+  width: 100%;
+  padding: 10px 0;
+}
+
+.blocInfos{
+  display: flex;
+  justify-content: space-around;
+}
+.blocInfos .imgInfos{
+  width: 30%;
+  display: flex;
+}
+.blocInfos .pInfos{
+  width: 50%;
+}
+
+/*  ----- CONTACT ------ */
+
+.blocForm{
+  width: 60%;
+  margin: auto;
+}
+form{
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+}
+form label{
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+form input{
+  width: 50%;
+  height: 30px;
+  background :#d6e0f0;
+  border: none;
+  margin: auto;
+  display: block;
+  font-size: 16px;
+  color: #393b44;
+}
+form #email{
+position: relative;
+}
+form textarea {
+  width: 50%;
+  margin: auto;
+  display: block;
+  height: 200px;
+  background :#d6e0f0;
+  border: none;
+}
+.form-message {
+  margin-top: 10px;
+  padding: 12px;
+  opacity: 0;
+  transition: 0.2s ease;
+  color: #393b44;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
+}
+#not-mail {
+  display: none;
+  position: absolute;
+  color: #ff4d4d;
+  text-align: center;
+  transform-origin: 50% 50%;
+  top: 92%;
+  left: 0;
+}
+@keyframes dongle {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(-10px, 0px);
+  }
+  20% {
+    transform: translate(10px, 0px);
+  }
+  30% {
+    transform: translate(-10px, 0px);
+  }
+  40% {
+    transform: translate(10px, 0px);
+  }
+  50% {
+    transform: translate(-10px, 0px);
+  }
+  60% {
+    transform: translate(10px, 0px);
+  }
+  70% {
+    transform: translate(-10px, 0px);
+  }
+  80% {
+    transform: translate(10px, 0px);
+  }
+  90% {
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  /* For mobile phones: */
+  .blogHeader{
+    height: 80vh;
+  }
+  .headerLogo{
+    height: 60%;
+  }
+  .HeaderTitle{
+    font-size: 16px;
+  }
+  .headerNav{
+    margin: 0;
+  }
+  .headerNav nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  /* start */
+  .blocInfos{
+    flex-direction: initial;
+  }
+  .imgInfos{
+    width: 30%;
+    object-fit: contain;
+  }
+  /* oneArticle */
+  .imgOneAstuce{
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 767.98px) { 
+  .headerNav nav a{
+    font-size: 22px;
+  }
+  .recentPost p{
+    width: 74%;
+  }
+  .readMore{
+    width: 25%;
+  }
+  .sidebar{
+    width: 60%;
+    margin: auto;
+  }
+  .footer{
+    height: 60vh;
+  }
+  .blocFooter{
+    width: 50%;
+    margin: auto;
+  }
+  /* start */
+  .blocStart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .imgRecentPost{
+    width: 70%;
+  }
+  .recentPost ul{
+    width: 100%;
+  }
+  /* recettes astuces*/
+  .post{
+    width: 100%;
+  }
+  .imgPost {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991.98px) { 
+  .bloc{
+    display: block;
+  }
+  .headerNav nav a{
+    font-size: 24px;
+  }
+  .article{
+    width: 100%;
+    font-size: 14px;
+  }
+  .sidebar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .aboutUs{
+    width: 48%;
+    margin: 15px 0;
+  }
+  /* recettes astuces*/
+  .blocPost{
+    width: 100%;
+  }
+  /* oneArticle */
+  .oneAstucePost{
+    width: 100%;
+  }
+  .imgOneAstuce{
+    width: 80%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1199.98px) { 
+  .footer{
+    height: 32vh;
+  }
+  .readMore{
+    width: 30%;
+  }
+   /* form */
+     .blocForm{
+    width: 100%;
+  }
+   form input, form textarea {
+    width: 70%;
+  }
+  #not-mail {
+    top: 94%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "blogCategory":"uneRecette",
+            "blogTitle" : "La recette pour débutant",
+            "postedOn": "21 Juillet 2017",
+            "author": "Grey Art",
+            "blogImage": "http://localhost/app/src/pictures/soap-nature.jpg",
+            "blogText": "Pour débuter, je vous conseille de faire des savons de 500gr. On est jamais à l'abri d'un echec et perdre 1kg d'huile, ça fait mal au coeur ! Vous pouvez trouver des moules de 6 savons rectangulaires sur Aroma-zone qui sont très bien pour commencer !",
+            "blogDescription": "Voici une recette toute simple et dont vous avez déjà quasi tous les ingrédients !",
+            "ingredients": ["270gr huile olive", "100gr huile coco fondu"],
+            "ingredient3": "54.3gr de soude caustique",
+            "ingredient4": "120gr d'eau",
+            "ingredient5": "5ml de fragrance/huile essentielle",
+            "ingredient6": "30gr huile coco(surgraissage)"
+        
+        },
+        {
+            "id" : 2,
+            "blogCategory": "uneAstuce",
+            "blogTitle": "Les calculateurs",
+            "postedOn": "17 avril 2018",
+            "author": "Mandy Biais",
+            "blogImage": "calculateur1.PNG",
+            "blogText": "Et oui, je ne m'amuse pas à faire des calculs de tête pour faire mes savons !J'utilise des calculateurs qui ont pour but d'aider à calculer le grammage des ingredients par rapport aux huiles, aux beurres, à la quantité. Commme calculateurs je vous propose Mendrulandia, Simple Sap, Aroma-zone. Il en existe d'autres mais c'est ceux que j'utilise le plus. Ils ont tous des défaut et des qualités. Simple Sap est très simple d'utilisation mais il manque beaucoup de sortes d'huiles, Mendrulandia est peut-être un peu complex pour un débutant. Je conseille donc le calculateur d'Aroma-zone.oneAstuce. Ils s'utilisent tous de la même façon, vous choissiessez vos ingredients et le quantité en grammes et il fait le calcul ! Faites attention, avec le surgraissage, dans l'application Mendrulandia, il est comprit dans la quantité totale du début ! Ex : Vous avez mis 500gg d'huile à 8% de surgraissage. Il faudre prendre ces 8% dans les 500gr.<br/>Alors que les deux autres, c'est en plus des 500gr. Ce n'est pas la cata si vous avez oublié le surgraissage !",
+            "blogDescription": "Trouvez ici comment créer vos propres recettes de savons maison !"
+        },
+        {
+            "id": 3,
+            "blogCategory": "uneRecette",
+            "blogTitle": "Savon à l'orange",
+            "postedOn": "02 mai 2018",
+            "author": "Jeanne Dior",
+            "blogImage": "savon-bulle-essentielle-1.jpg",
+            "blogText": "Pour la poudre d'orange, je la fais moi-même. Ce n'est vraiment pas compliqué ! Récupérez la peau des oranges et faites les secher au soleil en été et sur les radiateurs en hiver ! Puis mixer et enfin tamiser! Il faut que les pelures soient bien séches sinon attention aux moisissures !",
+            "blogDescription": "Une mignonne et facile recette de savon à l'orange ! Ou à la clementine, au citron !",
+            "ingredients": ["270gr huile olive", "100gr huile coco fondu"],
+
+            "ingredient3": "54.3gr de soude caustique",
+            "ingredient4": "120gr d'eau",
+            "ingredient5": "5ml de fragrance/huile essentielle d'orange",
+            "ingredient6": "30gr huile de karité(surgraissage)",
+            "ingredient7": "3 grosses c.à.c de poudre d'orange"
+        },
+        {
+            "id": 4,
+            "blogCategory": "uneAstuce",
+            "blogTitle": "La trace",
+            "postedOn": "09 novembre 2017",
+            "author": "Mandy Biais",
+            "blogImage": "traces.jpg",
+            "blogText": "La trace, ah la fameuse trace ! C'est bien joli mais c'est quoi ?! C'est tout simplement la trace du rond du mixeur plongeant dans la préparation une fois qu'on le retire... Quand vous versez la soude/eau dans vos huiles, une réaction se produit. Le mélange devient plus épais, plus opaque et plus vous allez mixer plus il deviendra épais et opaque. Il faut être attentif à cette trace, c'est pour cela que je mixe 5s à chaque fois pour vérifier. Mais pourquoi ? Vous avez trois types de trace, petite = la préparation est liquide et un cercle se forme, la moyenne = la préparation est épaisse comme une crême anglaise et on distingue bien la trace, forte = la préparation ressemble à une crème et la trace est évidente. Visez la petite en premier lieu, d'un parce que si vous rajouter de la poudre, de l'argile, la préparation peut tout d'un coup devenir plus épaisse, de deux car si vous avez des petits moules individuels c'est quand même plus facile à verser si la trace et petite et moyenne. La forte est plus pour les moules à cakes pour faire des motifs.",
+            "blogDescription": "Venez découvrir le secret terribllleeeeeuuuhhh de la trace !"
+        },
+        {
+            "id": 5,
+            "blogCategory": "uneAstuce",
+            "blogTitle": "Les moules",
+            "postedOn": "29 janvier 2018",
+            "author": "Mandy Biais",
+            "blogImage": "darty.jpg",
+            "blogText": "Un moule en silicone même ceux de votre cuisine tant qu'il est assez épais et solid pour supporter le poid de la préparation ! Soyez inventif ! Une brique de le ait coupé en deux, une boite d'une célébre marque de chip's en tube, des pots de yaourts résistants.",
+            "blogDescription": "Quel moule choisir ? Petit grand ? En silicone ou non ?"
+        },
+        {
+            "id": 6,
+            "blogCategory": "uneAstuce",
+            "blogTitle": "Huiles et fragrances: la différence ?",
+            "postedOn": "21 février 2018",
+            "author": "Grey Art",
+            "blogImage": "huileEssentielle.jpg",
+            "blogText": "'Fragrance : Les substances aromatiques naturelles peuvent être des huiles essentielles, des fractions ou isolats d'huiles essentielles (composés obtenus par distillation fractionnée d'huiles essentielles) ou bien des substances obtenues à partir de matières premières végétales par des procédés écologiques tels que la fermentation ou l’hydrolyse.' Huile essentielle :Distillation complète par entraînement à la vapeur d’eau.",
+            "blogDescription": "Que prendre que choisir ? Et où les trouver !"
+        },
+        {
+            "id": 7,
+            "blogCategory": "uneAstuce",
+            "blogTitle": "Les fleurs",
+            "postedOn": "12 mars 2018",
+            "author": "Mandy Biais",
+            "blogImage": "soap-lavande.jpg",
+            "blogText": "Si vous le pouvez, récupérer de la lavande, des pétales de fleurs de toutes sortes et faites les secher ! Soit pour les réduire en poudre, ou les parsemer sur vos savons ! Soyez créatifs !",
+            "blogDescription": "Prennez vos gants de jardinnage, un petit seau et hop on vas cueillir des fleurs !"
+        },
+        {
+            "id": 8,
+            "blogCategory": "uneRecette",
+            "blogTitle": "Coco Monoi",
+            "postedOn": "09 Juillet 2018",
+            "author": "Mandy Biais",
+            "blogImage": "",
+            "blogText": "Un 100% coco est assez particulier ! Le surgraissage doir être pas à 8 mais à mini 20% ! Sinon il est considéré comme produits d'entretien !",
+            "blogDescription": " Un morceau de douceur qui sent trop trop bon !",
+            "ingredient1": "350gr huile coco fondu",
+            "ingredient2": "67gr de soude caustique",
+            "ingredient3": "120gr d'eau",
+            "ingredient4": "5ml de fragrance Monoi",
+            "ingredient5": "92.5gr huile de coco(surgraissage)"
+        },
+        {
+            "id": 9,
+            "blogCategory": "uneRecette",
+            "blogTitle": "Savon Lavande",
+            "postedOn": "16 janvier 2019",
+            "author": "Grey Art",
+            "blogImage": "soap-lavande.jpg",
+            "blogText": "Lavande que j'ai récupéré et fait sécher au soleil !",
+            "blogDescription": "Une superbe recette de savon à la lavande !",
+            "ingredient1": "200gr huile olive",
+            "ingredient2": "100gr beurre de cacao fondu",
+            "ingredient3": "70gr beurre de Karité",
+            "ingredient4": "48gr de soude caustique",
+            "ingredient5": "120gr d'eau",
+            "ingredient6": "5ml de fragrance Lavande",
+            "ingredient7": "22.2gr huile de coco(surgraissage)",
+            "ingredient8": "3 grosses c.àc de lavande"
+        },
+        {
+            "id": 10,
+            "blogCategory": "uneRecette",
+            "blogTitle": "Savon au café",
+            "postedOn": "22 mars 2019",
+            "author": "Grey Art",
+            "blogImage": "",
+            "blogText": "Garder votre marc de café pour faire un super savon exfoliant !",
+            "blogDescription": "Recette de savon exfoliant ! Terrible !",
+            "ingredient1": "230gr huile olive",
+            "ingredient2": "100gr beurre de coprha(végétaline 100%coco)",
+            "ingredient3": "30gr huile de rose musquée",
+            "ingredient4": "48gr de soude caustique",
+            "ingredient5": "117gr d'eau",
+            "ingredient6": "3ml de fragrance café",
+            "ingredient7": "28.8gr huile de coco(surgraissage)",
+            "ingredient8": "3 grosses c.à.c de marc de café"
+        },
+        {
+            "id": 11,
+            "blogCategory": "uneAstuce",
+            "blogTitle": "Les restes des savons",
+            "postedOn": "17 juin 2020",
+            "author": "Mandy Biais",
+            "blogImage": "stoc-savons.jpg",
+            "blogText": "Plusieurs options ! Un : mettre en copeaux puis en sachet à accrocher dans la voiture ou dans les vêtements! Deux : Reduire en poudre pour faire une base pour de la lessive maison. Trois : Mettre en copeaux et refaire un maison spécial entretien.",
+            "blogDescription": "Ici, comment recycler ces petits bouts de savons !"
+        
+        },
+        {
+            "id": 12,
+            "blogCategory": "uneRecette",
+            "blogTitle": "Savon amande",
+            "postedOn": "24 décembre 2020",
+            "author": "Jeanne Dior",
+            "blogImage": "",
+            "blogText": "Pour le lait d'amande, le mettre dans un bac à glacon et hop au congéle ! C'est pour éviter que le lait souffre de la monter en température de la soude ! Pour les enfants, on évite les fragrances et les huiles essentielles !",
+            "blogDescription": "Un savon super pour les touts petits !",
+            "ingredient1": "200gr huile olive",
+            "ingredient2": "80gr beurre de karité fondu",
+            "ingredient3": "100gr huile d'mande",
+            "ingredient4": "50gr de soude caustique",
+            "ingredient5": "50gr d'eau",
+            "ingredient6": "73.5 de lait d'amande",
+            "ingredient7": "30.4gr huile d'amande'(surgraissage)"
+        }
+    ]
+}
