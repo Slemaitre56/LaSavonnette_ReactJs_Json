@@ -1,7 +1,7 @@
 # Site vitrine La Savonnette
 
 
-![Image description](./app/public/images/Capture.PNG)
+![Image description](app\public\images/Capture.PNG)
 
 
 Ce projet sert de test pour expérimenter le ReacrJs.
