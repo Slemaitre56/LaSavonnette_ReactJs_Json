@@ -28,6 +28,7 @@ h2{
   width: 100%;
   text-align: center;
   font-weight: 400;
+  margin: 20px;
 }
 h3{
   width: 100%;
@@ -40,6 +41,10 @@ h4{
   width: 100%;
   padding: 10px 0;
   font-weight: 300;
+}
+.selected{
+  color: blue;
+  background-color: #393b44;
 }
 
 /* §§§§§-------------------- CONTAINERS -------------------§§§§§ */
@@ -247,7 +252,7 @@ h4{
 }
 .oneAstucePost{
   width: 90%;
-  margin: 15px auto;
+  margin: 0 auto 20px;
   background-color: #fff;
 }
 .oneAstucePost figure {
@@ -273,6 +278,7 @@ h4{
   width: 90%;
   margin: 15px auto;
   color: #74798d;
+  list-style: none;
 }
 .liRecette{
   list-style: decimal;
@@ -474,6 +480,7 @@ form textarea {
   .headerNav nav{
     flex-direction: column;
     align-items: center;
+    padding: 15px;
   }
   /* start */
   .blocInfos{
@@ -568,11 +575,11 @@ form textarea {
 }
 
 @media (max-width: 1199.98px) { 
-  .footer{
-    height: 32vh;
-  }
   .readMore{
     width: 30%;
+  }
+  .copyR{
+    padding: 0;
   }
    /* form */
      .blocForm{

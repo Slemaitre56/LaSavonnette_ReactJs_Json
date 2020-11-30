@@ -23,6 +23,7 @@ function App() {
         <Header />
          <Switch>
            <Route exact path="/" component={Home} />
+           <Route exact path="/accueil" component={Home} />
            <Route path="/commencer" component={Start} />
            <Route path="/recettes" component={Recette} />
            <Route path="/astuces" component={Astuce} />

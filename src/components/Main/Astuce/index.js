@@ -31,7 +31,11 @@ const Astuce = (props) => {
                                 </figure>
                             </div>
                             )
-                        }        
+                        }else{
+                            <div className="post">
+                                <p>Il n'y a pas d'article.</p>
+                            </div>
+                        }         
                     })
                 }
         </div>

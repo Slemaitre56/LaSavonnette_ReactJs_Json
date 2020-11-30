@@ -6,15 +6,15 @@ const OneRecette = (props) => {
 
 
     const [post, setPost] = useState({});
-    const [astucePosts, setAstucePosts] = useState([]);
+
 
     useEffect(() => {
         const postId = props.match.params.postId;
         const post = blogData.data.find(post => post.id == postId);
         setPost(post);
 
-        console.log(post);
-    }, [post])
+    }, [post, props.match.params.postId])
+
 
     return (
         <div className="oneAstuce">
@@ -24,7 +24,7 @@ const OneRecette = (props) => {
                 <figure>
                     <h3>{post.blogTitle}</h3>
                     <p className="date">Publié le {post.postedOn} par {post.author}</p>
-                    <img className="imgAstucePost imgOneAstuce" alt="recette"/>
+                    <img className="imgAstucePost imgOneAstuce" src={post.blogImage} alt="recette"/>
                     <h4>Les ingrédients pour un savon de 500gr :</h4>
 
 

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer">
             <div className="blocFooter">
                 <nav>
-                <NavLink to="/">Accueil</NavLink>
+                <NavLink to="/accueil">Accueil</NavLink>
                 <NavLink to="/commencer">Commencer</NavLink>
                 <NavLink to="/recettes">Recettes</NavLink>
                 <NavLink to="/astuces">Astuces</NavLink>

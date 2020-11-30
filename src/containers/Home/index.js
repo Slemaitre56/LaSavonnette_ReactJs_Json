@@ -5,7 +5,6 @@ import SideBar from '../../components/Main/SideBar';
 
 const Home = (props) => {
 
-    console.log(props);
     return (
         <div className="bloc">
             <Article />

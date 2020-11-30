@@ -37,8 +37,8 @@ const Starting = () => {
                         <h3>Ce dont vous avez besoin :</h3>
                         <li>Un mixeur plongeant qui servira uniquement pour faire des savons ou autres produits ménagers</li>
                         <li>Une maryse ou cuillière à bois que pour faire des savons etc.</li>
-                        <li>Des huiles ( Olive, Coco le minimum ) - <a>Voir mes astuces !</a></li>
-                        <li>Un moule - <a>Voir mes astuces !</a></li>
+                        <li>Des huiles ( Olive, Coco le minimum )</li>
+                        <li>Un moule</li>
                         <li>Du film étirable</li>
                         <li>De l'eau</li>
                         <li>De la soude caustique</li>

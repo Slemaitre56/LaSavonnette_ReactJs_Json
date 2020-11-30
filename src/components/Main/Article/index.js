@@ -21,7 +21,7 @@ const Article = (props) => {
             {
                 posts.map((post, index) => {
 
-                    if(posts.length = 3){
+                    
                         return (
                             <div key= {index} className="recentPost">
                                 <figure>
@@ -35,13 +35,8 @@ const Article = (props) => {
                                 </figure>
                             </div>
                         )
-                    }else{
-                        return(
-                            <div>
-                                <p>Il n'y a pas de nouvel article.</p>
-                            </div>
-                        )
-                    }       
+                    
+                             
                 })
             }
         </div>

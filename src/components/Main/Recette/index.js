@@ -19,7 +19,6 @@ const Recette = (props) => {
 
             {
                 recettePosts.map((recettePost, index) => {
-                    console.log(recettePost.blogCategory);
                     if(recettePost.blogCategory === 'uneRecette'){
                         return (
                             <div key= {index} className="post">
@@ -28,10 +27,14 @@ const Recette = (props) => {
                                     <p className="date datePost">Publié le {recettePost.postedOn} par {recettePost.author}</p>
                                     <img className="imgPost" src={recettePost.blogImage} alt="about us"/>
                                     <p>{recettePost.blogDescription}</p>
-                                    <NavLink key={recettePost.id} to={`${recettePost.blogCategory}/${recettePost.id}`} ><button className="readMore readPost">Voir l'recette</button></NavLink>
+                                    <NavLink key={recettePost.id} to={`${recettePost.blogCategory}/${recettePost.id}`} ><button className="readMore readPost">Voir la recette</button></NavLink>
                                 </figure>
                             </div>
                             )
+                        }else{
+                            <div className="post">
+                                <p>Il n'y a pas d'article.</p>
+                            </div>
                         }        
                     })
                 }
