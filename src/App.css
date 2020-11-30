@@ -228,7 +228,6 @@ h4{
 }
 .post{
   width: 47%;
-  margin: 15px auto;
   background-color: #fff;
   font-size: 12px;
 }
@@ -266,6 +265,8 @@ h4{
 }
 .oneAstucePostP{
   font-size: 14px;
+  width: 62%;
+  margin: 15px auto;
 }
 .oneAstucePostP a, .oneAstucePost a{
   color: #7acfeb;
